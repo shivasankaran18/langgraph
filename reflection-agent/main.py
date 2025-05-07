@@ -13,7 +13,7 @@ graph = MessageGraph()
 def generate_node(state):
     return generation_chain.invoke({
         "messages": state
-    })
+})
 
 
 def reflect_node(messages):

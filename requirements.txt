@@ -5,3 +5,7 @@ langchain-google-genai
 grandalf
 python-dotenv
 langgraph
+pydantic
+langchain-community
+tavily-python
+langgraph-checkpoint-sqlite
