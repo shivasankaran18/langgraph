@@ -9,3 +9,5 @@ pydantic
 langchain-community
 tavily-python
 langgraph-checkpoint-sqlite
+faiss-cpu
+sentence-transformers
