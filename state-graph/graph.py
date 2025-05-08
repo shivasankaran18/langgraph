@@ -77,7 +77,8 @@ while True:
         #     if isinstance(item, ToolMessage):
         #         print(f"Tool: {item.content}")
         print(result)
-        
-          
+
+
+
 
     

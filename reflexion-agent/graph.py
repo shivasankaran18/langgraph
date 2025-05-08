@@ -41,7 +41,7 @@ graph.set_entry_point("generate")
 app=graph.compile()
 print(app.get_graph().draw_mermaid())
 
-response=app.invoke(HumanMessage(content="AI Agents taking over content creation"))
+response=app.invoke(HumanMessage(content="AI Agents taking over content creation for 100 words"))
 
 
 print(response[-1].tool_calls[0]["args"]["answer"])
